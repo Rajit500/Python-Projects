@@ -4,7 +4,7 @@ import time
 
 st.title("Countdown Timer")
 
-minutes = st.number_input("Enter minutes", min_value=0)
+minutes = st.number_input("Enter minutes", min_value=0)  # st.text_input for string
 seconds = st.number_input("Enter seconds", min_value=0, max_value=59)
 
 if st.button("Start Timer"):
